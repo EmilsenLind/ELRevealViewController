@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        let elRevealViewController = ELRevealViewController(mainVC: MainVC(), revealVCPosition: .left, configuation: nil)
         
-        let elRevealViewController = ELRevealViewController(mainVCIdentifier: "MainVC", revealVCIdentifier: "LeftVC", revealVCPosition: .left, configuation: nil)
+        let elRevealViewController = ELRevealViewController(mainVCIdentifier: "MainVC", revealVCIdentifier: "LeftVC", revealVCPosition: .left, configuation: ELConfiguration(animationType: .flyerReveal, menuWidthPercentage: 0.5, menuThresholdPercentage: 0.3))
         
         window!.rootViewController = elRevealViewController
         window!.makeKeyAndVisible()
