@@ -15,17 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        window = UIWindow(frame: UIScreen.main.bounds)
+//        window = UIWindow(frame: UIScreen.main.bounds)
 //        let elRevealViewController = ELRevealViewController(mainVC: MainVC(), revealVC: LeftRevealVC(), revealVCPosition: .left, configuation: nil)
         
 //        let elRevealViewController = ELRevealViewController(mainVC: MainVC(), revealVC: LeftRevealVC(), revealVCPosition: .right, configuation: ELConfiguration(animationType: .flyerReveal, menuWidthPercentage: 0.8, menuThresholdPercentage: 0.4))
         
 //        let elRevealViewController = ELRevealViewController(mainVC: MainVC(), revealVCPosition: .left, configuation: nil)
         
-        let elRevealViewController = ELRevealViewController(mainVCIdentifier: "MainVC", revealVCIdentifier: "LeftVC", revealVCPosition: .left, configuation: ELConfiguration(animationType: .flyerReveal, menuWidthPercentage: 0.5, menuThresholdPercentage: 0.3))
+//        let elRevealViewController = ELRevealViewController(mainVCIdentifier: "MainVC", revealVCIdentifier: "LeftVC", revealVCPosition: .left, configuation: ELConfiguration(animationType: .flyerReveal, menuWidthPercentage: 0.5, menuThresholdPercentage: 0.3))
         
-        window!.rootViewController = elRevealViewController
-        window!.makeKeyAndVisible()
+//        let elRevealViewController = ELRevealViewController(mainVC: MainVC(), revealVC: LeftRevealVC(), revealVCPosition: .right, configuation: ELConfiguration(animationType: .flyerReveal, menuWidthPercentage: 0.5, menuThresholdPercentage: 0.3))
+        
+        
+        
+//        window!.rootViewController = elRevealViewController
+//        window!.makeKeyAndVisible()
         return true
     }
 
